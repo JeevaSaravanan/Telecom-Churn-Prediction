@@ -50,16 +50,24 @@ The analysis utilizes an **IBM Telco Customer Churn** dataset containing **7,043
   - [Dataset Download](https://community.ibm.com/accelerators/?context=analytics&query=telco%20churn&type=Data&product=Cognos%20Analytics)
 
 
-## 🔬 Methodology
+## Methodology
 
 The project includes several stages:
-
-
 
 ### Exploratory Data Analysis (EDA)
    ![](/Images/churn.png)
 
    In the dataset, 73.5% of customer are retained and 26.5% has churned.
+
+   - **CLTV Analysis**:  
+  High-value customers identified via CLTV are highlighted for proactive churn prevention strategies.
+
+![](/Images/dist-cltv-churn.png)
+
+- The violin plot compares the distribution of **Customer Lifetime Value (CLTV)** between churned and non-churned customers.
+- Both groups exhibit similar CLTV distributions overall, indicating that churn affects customers across various value levels.
+- However, churned customers have a slightly denser distribution around moderate CLTV values, highlighting that churn occurs frequently among moderately valuable customers.
+- Notably, some high-value customers also churn, emphasizing the importance of monitoring churn even among high-value segments.
 
    ![](/Images/cali-map.png)
 
@@ -126,16 +134,6 @@ This **SHAP beeswarm plot** visualizes the impact of each feature on predicting 
 - Other factors, like **CLTV**, **Tech Support**, and **Online Security**, have moderate but meaningful impacts.
 
 This visualization helps clarify which customer characteristics drive churn predictions most significantly.
-
-- **CLTV Analysis**:  
-  High-value customers identified via CLTV are highlighted for proactive churn prevention strategies.
-
-![](/Images/dist-cltv-churn.png)
-
-- The violin plot compares the distribution of **Customer Lifetime Value (CLTV)** between churned and non-churned customers.
-- Both groups exhibit similar CLTV distributions overall, indicating that churn affects customers across various value levels.
-- However, churned customers have a slightly denser distribution around moderate CLTV values, highlighting that churn occurs frequently among moderately valuable customers.
-- Notably, some high-value customers also churn, emphasizing the importance of monitoring churn even among high-value segments.
 
 
 ## Business Action Plan
