@@ -72,16 +72,6 @@ The project includes several stages:
 
 ![](/Images/iw-churn.png)
 
-Understanding Churn with Tenure, Charges and Payment Methods:
-
-![](/Images/contract.png)
-
-Here we could understand the customers with Month-to-Month leave more compared to people with long term commitments.
-
-![](/Images/payment-method.png)
-
-Here we could understand the customers with Electronic Check as payment method leaves indicating the hasle in traditional payment methodolgies. More data on this will help us built a better picture.
-
 ![](/Images/tenure.png)
 
 As can be seen, most of the monthly contracts last for a few months, while the 2 years contracts tend to last for years, with a great increase towards the greater values of tenure in this dataset. This implies that customers with a great commitment at the beginning, like a 2-year contract, tend to stay with the company for a longer period of time. Long-term contracts usually have contractual fines. Therefore, customers have to wait until the end of the contract to churn. It is not clear if it is the case. A time-series data would be better to study this.
@@ -94,6 +84,18 @@ Customer with high monthly charges tend to leave, while the customers with minim
 
 - Churned customers tend to have lower total charges, typically below $2000, suggesting these customers generally leave earlier or spend less during their tenure.
 - Non-churned customers show a wider spread, with higher total charges indicating longer-term relationships and cumulative spending.
+
+
+Understanding Churn with Tenure, Charges and Payment Methods:
+
+![](/Images/contract.png)
+
+Here we could understand the customers with Month-to-Month leave more compared to people with long term commitments.
+
+![](/Images/payment-method.png)
+
+Here we could understand the customers with Electronic Check as payment method leaves indicating the hasle in traditional payment methodolgies. More data on this will help us built a better picture.
+
 
 ## Results & Insights
 
