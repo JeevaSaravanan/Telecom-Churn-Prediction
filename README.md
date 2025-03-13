@@ -2,6 +2,8 @@
 
 This project aims to analyze customer churn in the telecommunications industry using machine learning. By accurately predicting churn, telecom companies can proactively implement retention strategies, minimize revenue loss, and improve customer satisfaction.
 
+[Tableau Dashboard](https://public.tableau.com/views/TelecomCustomerChurnAnalysis_17418392365490/TelecomCustomerChurnDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Overview
 
 **Churn** is a critical issue in the telecom industry, referring to the rate at which customers stop using a company's services. Due to increased competition, retaining existing customers has become significantly more cost-effective than acquiring new ones. This project employs advanced machine learning techniques to predict customer churn, enabling targeted retention strategies and efficient customer relationship management.
