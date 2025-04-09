@@ -14,7 +14,7 @@ This project aims to analyze customer churn in the telecommunications industry u
 
 [Tableau Dashboard](https://public.tableau.com/views/Book1_17417500689330/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![](/Images/Dashboard.png)
+![](Images/Dashboard.png)
 
 ## Dataset Description
 
