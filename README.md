@@ -12,7 +12,7 @@ This project aims to analyze customer churn in the telecommunications industry u
 - Build predictive models to accurately forecast customer churn.
 - Provide actionable insights to help the company proactively retain valuable customers.
 
-[Tableau Dashboard](https://public.tableau.com/views/TelecomCustomerChurnAnalysis_17418392365490/TelecomCustomerChurnDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard](https://public.tableau.com/views/Book1_17417500689330/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![](/Images/Dashboard.png)
 
